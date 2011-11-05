@@ -1,0 +1,14 @@
+Vendor::Spec.new do |s|
+
+  s.name        = "Reachability"
+  s.version     = "2.0.4ddg"
+
+  s.authors     = [ "Andrew W. Donoho", "Apple Inc." ]
+  s.email       = "ben@allseeing-i.com"
+  s.description = "Basic demonstration of how to use the SystemConfiguration Reachability APIs"
+
+  s.source      = "https://github.com/keithpitt/Reachability"
+
+  s.files       = [ "Reachability.h", "Reachability.m" ]
+
+end
